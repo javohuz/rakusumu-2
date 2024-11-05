@@ -72,7 +72,7 @@ const Section4 = () => {
           <div className="grid-item">
             <p>専門知識</p>
           </div>
-          <div className="grid-item large">
+          <div className="grid-item large large_bottom">
             <p><span>当社だからこそ伝えられる情報を共有</span></p>
           </div>
           <div className="grid-item">

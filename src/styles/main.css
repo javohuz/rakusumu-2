@@ -88,6 +88,7 @@ h1 {
 }
 
 .top-section-main .top-text {
+  width: 100%;
   padding: 1.21px 4.86px 2.43px 4.86px;
   background: #00a6c3;
   font-size: 24.77px;
@@ -802,7 +803,7 @@ h1 {
   line-height: 150%;
   /* 27px */
   border: none;
-  border-right: 4px solid #00a6c3;
+  border-right: 4px solid #80d3e1;
   border-left: 4px solid #00a6c3;
   background: var(--main_white, #fff);
   display: flex;
@@ -813,6 +814,7 @@ h1 {
   align-self: stretch;
   position: relative;
 }
+
 
 .large::after {
   content: "";
@@ -825,7 +827,17 @@ h1 {
 
   z-index: 1;
 }
+.large_bottom::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(55.37deg, #00a6c3 20.66%, #80d3e1 79.81%);
 
+  z-index: 1;
+}
 .grid-item-last:after {
   height: 4px;
   background: linear-gradient(90deg, #50b498 26%, #def9c4);
@@ -1481,6 +1493,7 @@ h1 {
   background: #4dc1d5;
   position: relative;
   overflow: hidden;
+  z-index: 0;
 }
 
 .footer-top {
@@ -1497,6 +1510,7 @@ h1 {
   top: -113px;
   border-radius: 400px;
   border: 40px solid #1fb1ca;
+  z-index: -1;
 }
 
 .f-elips-2 {
@@ -1622,6 +1636,9 @@ h1 {
 }
 
 .checklist {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
   align-self: flex-start;
 }
 
