@@ -29,7 +29,7 @@ To run this project locally, you'll need to have [Node.js](https://nodejs.org/) 
 
 4. **Start the development server:**:
    ```bash
-      gatsby develop
+    gatsby develop
 
 5. **Go to your browser and navigate to:**:
    ```bash
