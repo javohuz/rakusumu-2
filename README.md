@@ -4,6 +4,12 @@
 
 The Rakusumu project is a web application that has been successfully converted from traditional HTML, CSS, and JavaScript into a Gatsby-based site. Gatsby is a powerful static site generator that enhances performance and provides an improved development experience.
 
+## Deployment
+
+The Rakusumu project has been deployed online and can be accessed at:
+
+[http://rakusumu-2.javo.uz/](http://rakusumu-2.javo.uz/)
+
 ## Features
 
 - Fast loading times and improved performance thanks to Gatsby's static site generation.
