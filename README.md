@@ -18,9 +18,21 @@ To run this project locally, you'll need to have [Node.js](https://nodejs.org/) 
    ```bash
    git clone https://github.com/javohuz/rakusumu-2.git
    cd rakusumu-2
-  
-   npm install
-   npm install -g gatsby-cli
-   gatsby develop
-   Go to http://localhost:8000 
+
+2. **Install dependencies:**:
+   ```bash
+    npm install
+
+3. **Install Gatsby CLI globally (if you haven't installed it already):**:
+   ```bash
+    npm install -g gatsby-cli
+
+4. **Start the development server:**:
+   ```bash
+      gatsby develop
+
+5. **Go to your browser and navigate to:**:
+   ```bash
+    http://localhost:8000
+    
 
